@@ -1,0 +1,230 @@
+- the fastest language is german
+- goal -> grab 100 koroks without glitches
+- this route use 1 boko amiibo, 3 epona amiibo and 1 box amiibo
+
+- Great Plateau:
+    - SoR:
+        icon: sor
+        comment: don't clip ;)
+    - _Material<Apple>:
+        movements: 
+          - [-1024,1797.5]
+          - [-954.25,1880]
+    - _Equipment::Weapon<Axe>:
+        icon: equipment
+        movements:
+          - [-930,1873.5]
+    - _Korok::P10
+    - Talk to Zelda:
+        icon: zelda
+        coord: [-801,1804.25]
+        comment: jump into flowers
+    - _Equipment::Bow<boko bow and arrows>:
+        icon: bow
+        movements:
+          - [-649.5,1761]
+          - [-611,1745.75]
+        notes: you should have 5 to 7 arrows
+    - _Equipment::Shield<Boko Shield>:
+        coord: [-610,1707.25]
+    - _Tower::GreatPlateau
+    - Talk to old man:
+        icon: king
+        notes: Up Down Down Up
+        comment: jump down
+        coord: [-575.75,1682.25]
+    - _Shrine::OmanAu:
+        comment: Run to Shrine
+    - scan boko amiibo:
+        icon: ganon
+        coord: [-690.25,1485.5]
+        notes: If you don't have it, grab hyrules herbs
+    - _Korok::P01
+    - _Equipment::Bow<Ice and Fire arrows>:
+        coord: [-777.3125,1557.25]
+    - _Korok::P02
+    - _Korok::P05
+    - _Equipment::Bow<travelers bow>:
+        coord: [-899.25,1670.75]
+    - _Equipment::Bow<10 arrows>:
+        coord: [-910.75,1671.75]
+    - _Korok::P06
+    - _Korok::P04
+    - _Warp::SOR
+    - _Material<3 shroom>:
+        coord: [-1064.75,1808.5]
+        color: red
+        notes: for heal
+    - _Korok::P08:
+        notes: you can use the iron plate to grab the korok or .link([this strategy] https://youtu.be/KyyCGOTS6Q0?si=vVyx7112qmtlPAj-&t=419)
+    - _Shrine::KehNamut:
+        comment: climb up
+    - _Korok::P15
+    - _Korok::P16:
+        notes: use .link([magnesis] https://youtu.be/J3MWwgrkk9M?si=QlV-To6wVMJ0lVcE&t=1112) to push the slab
+    - _Korok::P17
+    - _Shrine::OwaDaim
+    - Stasis Launches To P12:
+        coord: [-675,2122]
+    - _Korok::P12
+    - _Shrine::JaBaij
+    - run to Trees:
+        coord: [-646,2075.5]
+    - Paraglider:
+        coord: [-812,1967]
+        icon: king
+        comment: tree launch up
+    - _Equipment::Bow<soldier bow>
+    - _Korok::P11
+    - _Warp::Shrine::OmanAu:
+        color: green
+- Central:
+    - _Korok::C83
+    - _Korok::C82
+    - Scan Epona:
+        icon: horse
+        coord: [-747.5,1405.5]
+    - Majora's Mask:
+        icon: chest-special
+        coord: [-446,1284.5]
+        notes: the mask is not mendatory, it just make the run easier
+    - _Korok::C76
+    - _Korok::C75
+    - _Korok::C64
+    - _Korok::C70
+    - _Korok::C71
+    - _Equipment::Shield<Pot Lid>:
+        coord: [330,1102.75]
+    - _Equipment::Weapon<Axe>:
+        coord: [349,1068]
+    - Active .active(Wahgo Katta):
+        icon: shrine-active
+        coord: [345.5,1007.6875]
+    - _Korok::C65
+    - _Korok::C56:
+        notes: don't grab apples
+    - Active .active(Kaya Wan):
+        icon: shrine-active
+        coord: [825.125,187.3125]
+    - _Korok::C46
+    - _Korok::C51
+    - _Korok::C45
+    - _Korok::C44
+    - _Equipment::Bow<10 Ice Arrows>:
+        coord: [-18.625,193.8125]
+        notes: used like a regular arrow
+    - _Equipment::Bow<10 Arrows>:
+        coord: [-21.1875,216.1875]
+    - _Korok::C49
+    - _Korok::C48
+    - _Korok::C40
+    - _Korok::C41
+    - _Korok::C42
+    - _Korok::C43
+    - _Korok::C35
+    - _Korok::C31
+    - _Korok::C30
+    - _Korok::C25
+    - _Korok::C26:
+        comment: leave epona here
+    - _Korok::C22
+    - _Korok::C20
+    - _Korok::C21
+    - _Korok::C14
+    - _Korok::C24
+    - _Korok::R27
+    - _Korok::R26
+    - _Korok::R19
+    - _Korok::R16
+    - _Warp::Shrine::WahgoKatta:
+        color: Yellow
+- Duellings Peaks:
+    - _Material<Hearty Radish>:
+        coord: [527.75,1164.5]
+    - _Korok::D13
+    - _Korok::D15
+    - Scan Epona:
+        icon: horse
+        coord: [757.5,1347]
+    - _Korok::D25
+    - _Korok::D24:
+        notes: .link([D24 strategy] https://www.twitch.tv/videos/2192436970?t=00h57m28s)
+    - _Korok::D23
+    - _Korok::D22
+    - _Korok::D14:
+        notes: can be hitted by a round bomb to keep an arrow
+    - _Korok::C77
+    - _Korok::C84
+    - _Korok::D27
+    - _Korok::D36:
+        notes: Leave Epona here
+    - _Korok::D46
+    - _Korok::D35
+    - _Korok::D34
+    - _Korok::D33
+    - _Korok::D32
+    - _Korok::D31
+    - _Korok::D44
+    - _Korok::D45
+    - _Korok::L01
+    - _Equipment::Bow<Phrenic Bow>:
+        coord: [308.5,1951]
+        comment: in a mag chest
+    - _Korok::L02
+    - _Korok::L04
+    - _Korok::L11
+    - _Korok::L05
+    - _Korok::L06
+    - Scan Boxes:
+        comment: Stasis launch up
+        coord: [500.75,2166.75]
+        icon: guardian
+    - _Korok::L12
+    - _Korok::L17
+    - _Korok::L18
+    - _Korok::L13
+    - _Korok::D50
+    - _Korok::D47
+    - _Korok::D38
+    - _Korok::D37
+    - _Warp::Shrine::KayaWan:
+          color: violet
+- Lanayru:
+    - _Korok::Z37
+    - Scan Epona:
+        icon: horse
+        coord: [966,370]
+        notes: wait to be out of the forest to scan epona
+    - _Korok::Z47
+    - _Korok::Z48
+    - _Korok::Z49
+    - _Korok::Z50
+    - _Material<5 Fleet Lotus Seeds>:
+        coord: [1926.5,268.5]
+        notes: dodge the guardian
+    - _Korok::Z41
+    - _Cook<Simmered fruit>:
+        comment: 5 Fleet Lotus Seeds
+        coord: [1997,-19]
+    - _Korok::Z40
+    - _Korok::Z39
+    - _Korok::Z38
+    - _Korok::Z30
+    - _Korok::Z29
+    - _Korok::Z21:
+        comment: Leave Epona here
+    - Eat simmered fruit:
+        coord: [1094,-262]
+        icon: cook
+    - _Korok::Z11
+    - _Korok::C12
+    - _Korok::C19
+    - _Korok::C11
+    - _Korok::C09
+    - _Korok::C06:
+        notes: Drawn Link to respawn closer to the next korok
+    - _Korok::C18
+    - _Korok::C10
+    - _Korok::C05
+    - _Korok::C04:
+        notes: GG boy
