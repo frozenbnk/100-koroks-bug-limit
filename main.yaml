@@ -1,6 +1,6 @@
 - the fastest language is german
-- goal -> grab 100 koroks with glitches
-- this route use 1 boko amiibo and 3 epona amiibo
+- goal -> grab 100 koroks without glitches
+- this route use 1 boko amiibo, 3 epona amiibo and 1 box amiibo
 
 - Great Plateau:
     - SoR:
@@ -39,11 +39,10 @@
         icon: ganon
         coord: [-690.25,1485.5]
         notes: If you don't have it, grab hyrules herbs
+    - _Korok::P01
     - _Equipment::Bow<Ice and Fire arrows>:
         coord: [-777.3125,1557.25]
-        notes: fire arrows are mendatory but ice arrows, aren't
     - _Korok::P02
-    - _Korok::P01
     - _Korok::P05
     - _Equipment::Bow<travelers bow>:
         coord: [-899.25,1670.75]
@@ -64,8 +63,7 @@
     - _Korok::P16:
         notes: use .link([magnesis] https://youtu.be/J3MWwgrkk9M?si=QlV-To6wVMJ0lVcE&t=1112) to push the slab
     - _Korok::P17
-    - _Shrine::OwaDaim:
-        notes: grab hammer
+    - _Shrine::OwaDaim
     - Stasis Launches To P12:
         coord: [-675,2122]
     - _Korok::P12
@@ -92,10 +90,9 @@
         notes: the mask is not mendatory, it just make the run easier
     - _Korok::C76
     - _Korok::C75
-    - _Korok::C70
     - _Korok::C64
+    - _Korok::C70
     - _Korok::C71
-    - _Korok::C65
     - _Equipment::Shield<Pot Lid>:
         coord: [330,1102.75]
     - _Equipment::Weapon<Axe>:
@@ -103,6 +100,7 @@
     - Active .active(Wahgo Katta):
         icon: shrine-active
         coord: [345.5,1007.6875]
+    - _Korok::C65
     - _Korok::C56:
         notes: don't grab apples
     - Active .active(Kaya Wan):
@@ -124,7 +122,6 @@
     - _Korok::C42
     - _Korok::C43
     - _Korok::C35
-    - _Korok::C32
     - _Korok::C31
     - _Korok::C30
     - _Korok::C25
@@ -134,14 +131,11 @@
     - _Korok::C20
     - _Korok::C21
     - _Korok::C14
-    - _Korok::C07:
-        notes: you can grab hearty truffes for heal 
-    - _Korok::R16:
-        comment: tree launch over the river
-    - _Korok::R19
-    - _Korok::R27
     - _Korok::C24
+    - _Korok::R27
     - _Korok::R26
+    - _Korok::R19
+    - _Korok::R16
     - _Warp::Shrine::WahgoKatta:
         color: Yellow
 - Duellings Peaks:
@@ -153,7 +147,6 @@
         icon: horse
         coord: [757.5,1347]
     - _Korok::D25
-    - _Korok::D29
     - _Korok::D24:
         notes: .link([D24 strategy] https://www.twitch.tv/videos/2192436970?t=00h57m28s)
     - _Korok::D23
@@ -162,8 +155,11 @@
         notes: can be hitted by a round bomb to keep an arrow
     - _Korok::C77
     - _Korok::C84
-    - _Korok::D27:
-        comment: Leave Epona here
+    - _Korok::D27
+    - _Korok::D36:
+        notes: Leave Epona here
+    - _Korok::D46
+    - _Korok::D35
     - _Korok::D34
     - _Korok::D33
     - _Korok::D32
@@ -179,13 +175,16 @@
     - _Korok::L11
     - _Korok::L05
     - _Korok::L06
+    - Scan Boxes:
+        comment: Stasis launch up
+        coord: [500.75,2166.75]
+        icon: guardian
     - _Korok::L12
     - _Korok::L17
     - _Korok::L18
     - _Korok::L13
-    - _Korok::D50:
-        notes: stasis launch with the slab
-    - _Korok::D46
+    - _Korok::D50
+    - _Korok::D47
     - _Korok::D38
     - _Korok::D37
     - _Warp::Shrine::KayaWan:

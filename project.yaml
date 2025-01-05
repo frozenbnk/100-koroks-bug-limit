@@ -2,7 +2,7 @@ title: 100 Koroks Bug Limit
 
 # The version of your route. There's no particular format here.
 # This will be displayed in the metadata in the settings dialog
-version: 1.0
+version: 1.1
 
 # This is the route itself. Here it points to the main.yaml file we created earlier
 route:
@@ -20,6 +20,7 @@ config:
       horse: https://icons.pistonite.org/icon/misc.horse.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
       daruk: https://icons.pistonite.org/icon/character.daruk.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
       shrine-active: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      guardian: https://icons.pistonite.org/icon/misc.flux_construct.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
   - plugins:
       - use: link
       - use: variables 
